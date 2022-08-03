@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chintan Fitness Club</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        /* CSS Reset */
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/workout-6783020_1280.webp') no-repeat center center/cover;
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 3px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        line-height: 20px;
+        font-size: 20px;
+    }
+
+    .left img {
+        width: 55px;
+        display: block;
+        margin: 4px auto;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .center {
+
+        /* center ma lava mate display margin and top use thay */
+        display: block;
+        width: 30%;
+        margin: 12px auto;
+        /* border: 3px solid blue; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 3px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+    
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 22px 10px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 10px 9px;
+        background-color: white;
+        padding: 4px 8px;
+        border: 3px solid red;
+        border-radius: 8px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(255, 203, 203);
+    }
+
+    .container {
+        color: aliceblue;
+        margin: 58px 31px;
+        padding: 34px 52px;
+        /* border: 2px solid rgba(0, 221, 132, 0.642); */
+        border-radius: 9px;
+        width: 33%;
+    }
+
+    .formgroup input {
+
+        text-align: center;
+        display: block;
+        padding: 16px 99px;
+        margin: 11px auto;
+        width: 309px;
+        border-radius: 7px;
+        /* border: 2px solid blueviolet; */
+        font-size: 23px;
+    }
+
+    .container h1 {
+        text-align: center;
+        color: yellow
+    }
+
+    .container button {
+        display: block;
+        width: 30%;
+        margin: 18px auto;
+        padding: 10px;
+        font-size: 25px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for gym logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>Chintan Fitness</div>
+        </div>
+        <!-- Center for navigation menu -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href='#'>Home</a></li>
+                <!-- j ma enter thya hoy ana mate a perform thase css par thi -->
+                <li><a href='#'>About Us</a></li>
+                <li><a href='#'>Fitness Calculator</a></li>
+                <li><a href='#'>Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the Chintan's GYM</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your address">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your blood group">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
