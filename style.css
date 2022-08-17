@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('img/workout-6783020_1280.webp') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.first-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    margin: 0.5rem;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.name {
+    padding: 0.2rem;
+}
+
+/* Logo styling */
+.header-section img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+}
+
+/* company name styling */
+.header-section .name {
+    position: relative;
+    color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* navbar styling */
+.navbar-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    width: 85.5rem;
+    margin: auto;
+}
+
+.navbar-section .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border: 2px solid grey;
+    background-color: #60606085;
+    padding: 0.9rem 1rem;
+    width: 6rem;
+    border-radius: 1.3rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.navbar .list a {
+    text-decoration: none;
+    color: #b6a6a6;
+}
+
+.navbar .list:hover {
+    background-color: #1919196d;
+}
+
+.navbar-section .navbar a:hover {
+    color: grey;
+}
+
+/* Form styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-left: 10rem;
+    width: 70%;
+}
+
+.container .text {
+    color: #d6d6d6;
+}
+
+.formgroup input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 6rem;
+    margin: 1rem auto;
+    width: 20rem;
+    border-radius: 1rem;
+    border: 2px solid blueviolet;
+    font-size: 1.5rem;
+    /* background-color: rgba(179, 175, 175, 0.645); */
+    background-color: rgba(0, 0, 0, 0.495);
+}
+
+::placeholder {
+    color: white;
+}
+
+.btn {
+    text-align: center;
+    color: #d6d6d6ac;
+    margin: 0 1.5rem;
+    border: 2px solid grey;
+    border-radius: 1.3rem;
+    background-color: #60606085;
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 8rem;
+}
+
+.btn:hover {
+    background-color: #1919196d;
+    color: grey;
+}
+
+.header-enquiry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.992);
+    padding: 1rem 0;
+    background-color: rgba(184, 184, 184, 0.836);
+    text-align: center;
+    width: 100%;
+}
+
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.contact-btn {
+    margin: 1rem;
+    border-radius: 1.3rem;
+    background-color: #606060;
+    border: 1px solid grey;
+    color: black;
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+    width: 8rem;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    color: grey;
+    background-color: #1919196d;
+}

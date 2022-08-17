@@ -1,0 +1,48 @@
+@media screen and (max-width:850px) {
+    .first-content {
+        flex-direction: column;
+    }
+
+    .header-section {}
+
+    .navbar-section {
+        width: 19rem;
+    }
+
+    .navbar .list {
+        width: 3.8rem;
+        padding: 0.7rem 0;
+        margin: 1rem 0.5rem;
+        font-size: 0.6rem;
+    }
+
+    .container {
+        margin-left: 3rem;
+    }
+
+    .formgroup input {
+        width: 13rem;
+        padding: 0.5rem;
+    }
+
+    ::placeholder {
+        font-size: 1rem;
+    }
+
+    .btn {
+        width: 5rem;
+        font-size: 0.8rem;
+        padding: 0.6rem 0.7rem;
+        margin: 0 1rem;
+    }
+
+    .right {
+        flex-direction: column;
+    }
+
+    .contact-btn {
+        width: 7rem;
+        font-size: 0.8rem;
+        padding: 0.8rem 0.9rem;
+    }
+}
